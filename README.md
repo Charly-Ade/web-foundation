@@ -3,6 +3,7 @@ basic understanding of a web with html css responsive designs and javascript cor
 
 what happens when you type www.google.com on your web browser
 it displays the google homepage 
+
 what is DNS?
 Dns (Domain Name System) it is a system that translate domain name into ip address
 
