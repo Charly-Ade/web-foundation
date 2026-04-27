@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML form </title>
+</head>
+<body>
+    <h1>HTML form</h1>
+    <p>
+        An HTML form is a section of a document that contains interactive controls 
+        that allow users to submit information to a web server.
+        forms are created using the <code>&lt;form&gt;</code> tag.
+    </p>
+    <form action="/submit" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" placeholder="Enter your name"><br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email"><br><br>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" placeholder="Enter your password"><br><br>
+        
+
+        <Label for="gender">Gender</Label>
+        <input type="radio" name="gender" value="male" id="male">
+        <label for="male">Male</label>
+        <input type="radio"  name="gender" value="female"id="female">
+        <label for="female">Female</label><br><br>
+            <label for="country">Country:</label>
+            <select name="country" id="country">
+                <option value="">Choose country</option>
+                <option value="usa">United States</option>
+                <option value="canada">Canada</option>
+                <option value="uk">United Kingdom</option>
+                <option value="nigeria">Nigeria</option>
+                <option value="germany">Germany</option>
+            </select><br><br>
+        <label for="hobbies">Hobbies:</label>
+        <input type="checkbox" name="hobbies" value="reading" id="reading">
+        <label for="reading">Reading</label>    
+        <input type="checkbox" name="hobbies" value="traveling" id="traveling">
+        <label for="traveling">Traveling</label>
+        <input type="checkbox" name="hobbies" value="coding" id="coding">
+        <label for="coding">Coding</label><br><br>
+        <input type="checkbox" name="hobbies" value="sports" id="sports">
+        <label for="sports">Sports</label><br><br>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
