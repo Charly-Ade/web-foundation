@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media</title>
+</head>
+<body>
+    <img>
+    <h1>Media in HTML</h1>
+    <hr>
+    <p>
+        An image tag in HTML self closing tag <code>&lt;img&gt;</code>with a source
+        attribute <code>src</code> alternate text attribute <code>alt</code> and 
+        width and height attributes <code>width</code> and <code>height</code>.<br><br>
+    </p>
+    <img src="https://www.w3schools.com/html/pic_trulli.jpg" alt="Trulli" width="500" height="333">
+    <img src="./assets/images/sample.jpg"alt="Sample Image" width="500" height="333">
+    <h2>Audio</h2>
+    <p>
+        The <code>&lt;audio&gt;</code> tag is used to embed sound content in a
+         webpage. it can contain one or more audio sources, represented using
+          the <code>&lt;source&gt;</code> tag, which allows the browser to choose the best format to play. 
+    </p>
+    <audio controls loop autoplay>
+        <source src="https://www.w3schools.com/html/horse.ogg"type="audio/ogg">
+        <source src="https://www.w3schools.com/html/horse.mp3"type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+    <h2>videos</h2>
+    <p>The <code>&lt;video&gt;</code> tag is used to embed video content in a webpage.<br><br>
+        <video controls loop autoplay width="500" height="333">
+            <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+            <source src="https://www.w3schools.com/html/mov_bbb.ogg" type="video/ogg">
+            Your browser does not support the video tag.
+        </p>
+</body>
+</html>
