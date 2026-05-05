@@ -1,0 +1,23 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px auto;
+    max-width: 800px;
+    background-color: burlywood; 
+}
+h1 {
+    color: brown;
+    text-align: center;
+}
+table {
+    width: 100%;
+ }
+td {
+    background-color: white;
+    margin: 10px;
+    padding: 10px        
+       
+    
+}
+h2 {
+    color:brown;
+}
