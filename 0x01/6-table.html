@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tables</title>
+    <link rel="stylesheet" href="6-table.css" type="text/css">
+</head>
+<body>
+    <h1>Poetry Workshop</h1>
+    <p>we will be conducting a number of poetry workshops and symposiums throughout the year.</p>
+    <p>Please note that the following events are free to members</p>
+    <ul type="square">
+        <li>a poetic perspective</li>
+        <li>wait Whitman at war</li>
+        <li> found poem and outsider poetry</li>
+    </ul>
+    <table>
+        <thead>
+            <tr class="head">
+                <th> </th>
+                <th>New york</th>
+                <th>Chicago</th>
+                <th>san francisco</th>
+            </tr>
+        </thead>
+        <tbody>
+        <tr class="odd">
+            <td>A poetic perspective</td>
+            <td>sat 14 feb 2012<br> 11am-2pm</td>
+            <td>sat 3 march 2012 <br>11am-2pm</td>
+            <td>sat 10 march 2012 <br>11am-2pm</td>
+        </tr>
+        <tr class="even">
+            <td>wait Whitman at war</td>
+            <td>sun 15 feb 2012 <br> 11am-2pm</td>
+            <td>sun 4 march 2012 <br> 11am-2pm</td>
+            <td>sun 11 march 2012 <br> 11am-2pm</td>
+        </tr>
+        <tr class="odd">
+            <td>found poem and outsider poetry</td>
+            <td>mon 16 feb 2012 <br> 11am-2pm</td>
+            <td>mon 5 march 2012 <br> 11am-2pm</td>
+            <td>mon 12 march 2012 <br> 11am-2pm</td>
+        </tr>
+        <tr class="even">
+            <td>Natural Death: an exploration</td>
+            <td>tue 17 feb 2012 <br> 11am-2pm</td>
+            <td>tue 6 march 2012 <br> 11am-2pm</td>
+            <td>tue 13 march 2012 <br> 11am-2pm</td>
+        </tr>
+        </tbody>
+    </table>
+    <br><br>
+     <form class="title">
+        <fieldset>
+        <legend>Register your interest</legend>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" placeholder="Enter your name"><br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email"><br><br>
+   <label for="city">Your closest center:</label>
+            <select name="city" id="city">
+                <option value="">Choose city</option>
+                <option value="usa">New-york</option>
+                <option value="canada">canlifonia</option>
+            </select><br><br>
+        <label for="member">Are you a member?:</label>
+        <input type="checkbox" name="Member" value="yes" id="yes">
+        <label for="yes">Yes</label>
+        <input type="checkbox" name="Member" value="no" id="no">  
+        <label for="no">No</label>
+     </fieldset>
+    </form>
+</body>
+</html>
