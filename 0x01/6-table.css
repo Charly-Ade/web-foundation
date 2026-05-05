@@ -1,0 +1,67 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px auto;
+    width: 1300px;   
+    background-color: white;
+}
+thead th{
+    background-color: rgb(129, 129, 238);
+    padding: 10px 20px;
+    text-transform: uppercase;
+}
+
+th, td{
+    padding: 10px 20px;
+    text-align: left;
+    text-transform: capitalize;
+    font-size: 90%;
+    text-shadow: 1px 1px 2px #fff;
+
+    
+}
+table{
+    border-collapse: collapse;
+}
+fieldset {
+         width: 350px;
+         border: 1px solid #dcdcdc;
+         border-radius: 10px;
+         padding: 20px;
+         text-align: right;}
+legend {
+        background-color: #efefef;
+        border: 1px solid #dcdcdc;
+        border-radius: 10px;
+        padding: 10px 20px;
+        text-align: left;
+        text-transform: uppercase;}
+
+ul{
+   
+    text-transform: capitalize;
+}
+.even td, th{
+        background-color: rgb(210, 210, 228);
+}
+.odd td, th{
+        background-color: rgb(175, 175, 212);
+}
+.head th:first-child{
+    -webkit-border-top-left-radius:10px;
+    -moz-border-radius-topleft:10px;
+    border-top-left-radius: 10px;
+}
+tr.head th:last-child{
+    -webkit-border-top-right-radius:10px;
+    -moz-border-radius-topright:10px;
+    border-top-right-radius:10px;
+}
+td{
+    border: 1px solid #7e7979;
+}
+th{
+    border-right:#7e7979 1px solid;
+}
+th:last-child{
+    border-right:none;
+}
