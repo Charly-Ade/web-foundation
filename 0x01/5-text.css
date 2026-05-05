@@ -1,0 +1,26 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px auto;
+    max-width: 1000px;   
+    background-color: lightgrey;
+}
+h1,h2,h3{
+    font-style:Gill san Arial, sans-serif;
+    color: blue;
+}
+h1{
+    text-shadow: 2px 2px 4px #6666;
+}
+h3{
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+footer p{
+    font-style: italic;
+    text-align: right;
+}
+span{
+    font-family: cursive;
+    color: blue;
+}
