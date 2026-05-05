@@ -1,0 +1,22 @@
+body{
+    background-color: lightgrey;
+}
+h1{
+    background-color: green;
+    color : white;
+     padding:1rem;
+}
+h2{
+    background-color: magenta;
+    color : white;
+    padding: 1rem;
+}
+p{
+    background-color: #c8c8c8;
+    color : black;
+    padding: 1rem;
+}
+.example{
+  width: 275px;
+  border:2px dashed #0088dd;
+}
