@@ -1,0 +1,40 @@
+body{
+    background-color: black;
+    font-family: Arial;
+}
+a{
+    background-color: red;
+    padding: 3px;
+    border: 1px solid black;
+    width: 90px;
+    color :white;
+}
+div.header{
+     background-color: #000;
+    margin:20px auto;
+    padding:20px;
+    border-radius: 5px;
+    width: 80%;
+    max-width: 600px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    flex-direction: column;
+    text-align: center;
+}
+#note {
+    background-color: #fff;
+    margin:20px auto;
+    padding:20px;
+    border-radius: 5px;
+    width: 80%;
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    color:red;
+}
+
+.hide {
+    display: none;
+}
