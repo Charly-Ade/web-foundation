@@ -1,0 +1,39 @@
+body{
+
+font-family: Arial, sans-serif;
+background:#33c6ce;
+margin:0;
+padding:40px;
+}
+
+
+#weather{
+display:grid;
+gap:20px;
+}
+
+
+
+.weather-card{
+background:white;
+padding:25px;
+border-radius:20px;
+box-shadow:0 10px 25px rgba(0,0,0,0.15);
+text-align:center;
+transition:0.3s;
+}
+
+.weather-card:hover{
+transform:translateY(-8px);
+}
+
+.weather-card h1{
+font-size:35px;
+}
+
+
+
+.weather-card p{
+font-size:18px;
+color:#201f1f;
+}
