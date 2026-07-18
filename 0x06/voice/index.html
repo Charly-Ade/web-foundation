@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Voice</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="app">
+        <header class="brand">
+            <p>LIST KING</p>
+            <h1 id="note-title">AUDIO NOTE</h1>
+        </header>
+
+        <main>
+            <form class="note-form" action="#">
+                <label for="note-name">Enter note name:</label>
+                <input type="text" id="note-name" name="note-name"maxlength="40"
+                autocomplete="off">
+            </form>
+
+            <section class="recorder" aria-label="Voice recorder">
+                <div id="buttons" class="buttons">
+                    <button id="record" class="record-button" type="button"
+                    data-state="record" aria-label="Start recording"
+                    aria-pressed="false" title="Start recording">
+                        <span class="icon icon-mic" aria-hidden="true">
+                            MIC
+                        </span>
+                        <span class="icon icon-pause" aria-hidden="true">
+                            PAUSE
+                        </span>
+                    </button>
+                    <button id="stop" type="button" disabled>
+                        STOP
+                    </button>
+                </div>
+
+                <div class="recording-meta" aria-live="polite">
+                    <p id="status">Ready</p>
+                    <output id="timer">00:00</output>
+                </div>
+            </section>
+
+            <section class="notes" aria-labelledby="recordings-title">
+                <h2 id="recordings-title">Saved notes</h2>
+                <ul id="recordings">
+                    <li class="empty-state">No note yet</li>
+                </ul>
+            </section>
+        </main>
+    </div> 
+    <script src="script.js"></script>
+</body>
+</html>
