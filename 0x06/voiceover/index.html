@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Voiceover</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="app">
+        <header class="brand">
+            <p> TEXT2SPEECH</p>
+            <h1 id="note-title">VOICE NAME</h1>
+        </header>
+        <main>
+            <form class="note-form" action="#">
+                <input type="text" id="note-name" placeholder="Enter text name" name="note-name"maxlength="100"
+                autocomplete="off">
+            </form>
+            <form class="text-form" action="#">
+                <textarea id="text-form" placeholder="Enter text"></textarea>
+                <select name="language" id="language">
+                    <option value="">Choose language</option>
+                    <option value="en-us">English(us)</option>
+                    <option value="en-uk">English(uk)</option>
+                    <option value="fr">French</option>
+                </select>
+                <select name="voice" id="voice">
+                    <option value="">Choose Voice</option>
+                    <option value="">Male</option>
+                    <option value="">Female</option>
+                    <option value="">Child</option>
+                </select>
+                <div class="buttons">
+                    <button type="button" id="speak">
+                        Speak
+                    </button>
+                    <button type="button" id="stop">
+                        Stop
+                    </button>
+                </div>
+                 <section class="notes" aria-labelledby="speech-title">
+                <h2 id="speech-title">Saved speech</h2>
+                <ul id="speech">
+                    <li class="empty-state">No speech yet</li>
+                </ul>
+            </section>
+
+            </form>
+        </main>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
