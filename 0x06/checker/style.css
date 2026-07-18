@@ -1,0 +1,10 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: whitesmoke;
+}
+form{
+    border: 2px solid black;
+    width: 800px;
+}
